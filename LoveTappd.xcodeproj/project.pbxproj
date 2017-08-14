@@ -20,6 +20,9 @@
 		4DB77AC01F4250AB0011E8A5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77ABF1F4250AB0011E8A5 /* ExtensionDelegate.swift */; };
 		4DB77AC21F4250AB0011E8A5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77AC11F4250AB0011E8A5 /* NotificationController.swift */; };
 		4DB77AC41F4250AB0011E8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77AC31F4250AB0011E8A5 /* Assets.xcassets */; };
+		81FB1885CC32A5938DAF8967 /* Pods_LoveTappd_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA2AE94BB2DC9AE8775462A /* Pods_LoveTappd_WatchKit_App.framework */; };
+		A56ADD90BADBFC415FD92B5A /* Pods_LoveTappd_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C03414914DF835CB042FC5 /* Pods_LoveTappd_WatchKit_Extension.framework */; };
+		ABCCCEECDA1E4A51B7289E21 /* Pods_LoveTappd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0243DB4ED0004B69CE881F41 /* Pods_LoveTappd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0243DB4ED0004B69CE881F41 /* Pods_LoveTappd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveTappd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144054379CA68A6847B8E566 /* Pods-LoveTappd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTappd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTappd/Pods-LoveTappd.debug.xcconfig"; sourceTree = "<group>"; };
+		3D2FB281B1E3EC096645F4A9 /* Pods-LoveTappd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTappd.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTappd/Pods-LoveTappd.release.xcconfig"; sourceTree = "<group>"; };
 		4DB77A951F4250AA0011E8A5 /* LoveTappd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveTappd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB77A981F4250AB0011E8A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DB77A9A1F4250AB0011E8A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +89,12 @@
 		4DB77AC11F4250AB0011E8A5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		4DB77AC31F4250AB0011E8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB77AC51F4250AB0011E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A422416695D4FF86A05F9306 /* Pods-LoveTappd WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTappd WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC884FB8B31C2691E684711 /* Pods-LoveTappd WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTappd WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		C3C03414914DF835CB042FC5 /* Pods_LoveTappd_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveTappd_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BBABDFA78248393D6DE2CC /* Pods-LoveTappd WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTappd WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTappd WatchKit Extension/Pods-LoveTappd WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		CEA2AE94BB2DC9AE8775462A /* Pods_LoveTappd_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveTappd_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC61D96FD69AEA3523EA46C /* Pods-LoveTappd WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTappd WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTappd WatchKit Extension/Pods-LoveTappd WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCCCEECDA1E4A51B7289E21 /* Pods_LoveTappd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +110,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56ADD90BADBFC415FD92B5A /* Pods_LoveTappd_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9666D52FB326C7402594FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FB1885CC32A5938DAF8967 /* Pods_LoveTappd_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +132,8 @@
 				4DB77AAB1F4250AB0011E8A5 /* LoveTappd WatchKit App */,
 				4DB77ABA1F4250AB0011E8A5 /* LoveTappd WatchKit Extension */,
 				4DB77A961F4250AA0011E8A5 /* Products */,
+				A540BB2D16B5CFF54EA01845 /* Pods */,
+				688E7F95D896BDB804C9D47F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +191,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		688E7F95D896BDB804C9D47F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0243DB4ED0004B69CE881F41 /* Pods_LoveTappd.framework */,
+				CEA2AE94BB2DC9AE8775462A /* Pods_LoveTappd_WatchKit_App.framework */,
+				C3C03414914DF835CB042FC5 /* Pods_LoveTappd_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A540BB2D16B5CFF54EA01845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				144054379CA68A6847B8E566 /* Pods-LoveTappd.debug.xcconfig */,
+				3D2FB281B1E3EC096645F4A9 /* Pods-LoveTappd.release.xcconfig */,
+				A422416695D4FF86A05F9306 /* Pods-LoveTappd WatchKit App.debug.xcconfig */,
+				BAC884FB8B31C2691E684711 /* Pods-LoveTappd WatchKit App.release.xcconfig */,
+				DBC61D96FD69AEA3523EA46C /* Pods-LoveTappd WatchKit Extension.debug.xcconfig */,
+				C8BBABDFA78248393D6DE2CC /* Pods-LoveTappd WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,10 +221,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DB77AD01F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd" */;
 			buildPhases = (
+				584613E7BE1C864D9A9A96DA /* [CP] Check Pods Manifest.lock */,
 				4DB77A911F4250AA0011E8A5 /* Sources */,
 				4DB77A921F4250AA0011E8A5 /* Frameworks */,
 				4DB77A931F4250AA0011E8A5 /* Resources */,
 				4DB77ACF1F4250AB0011E8A5 /* Embed Watch Content */,
+				DC9D2E6A810DB1CCCDEA58E5 /* [CP] Embed Pods Frameworks */,
+				AB2606951A2D732FF0F0482E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,8 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DB77ACC1F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd WatchKit App" */;
 			buildPhases = (
+				6FFD6F7558D33590B3BA98A9 /* [CP] Check Pods Manifest.lock */,
 				4DB77AA51F4250AB0011E8A5 /* Resources */,
 				4DB77ACB1F4250AB0011E8A5 /* Embed App Extensions */,
+				A9666D52FB326C7402594FE9 /* Frameworks */,
+				55CA9723138AFA56B8AFD02D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DB77AC81F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd WatchKit Extension" */;
 			buildPhases = (
+				2435D2C084AE5170AB663914 /* [CP] Check Pods Manifest.lock */,
 				4DB77AB21F4250AB0011E8A5 /* Sources */,
 				4DB77AB31F4250AB0011E8A5 /* Frameworks */,
 				4DB77AB41F4250AB0011E8A5 /* Resources */,
+				7C07AFC86FC51ED7BCB9A6EE /* [CP] Embed Pods Frameworks */,
+				00C3FB219337EF9B640814FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,6 +355,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C3FB219337EF9B640814FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveTappd WatchKit Extension/Pods-LoveTappd WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2435D2C084AE5170AB663914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55CA9723138AFA56B8AFD02D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		584613E7BE1C864D9A9A96DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FFD6F7558D33590B3BA98A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C07AFC86FC51ED7BCB9A6EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveTappd WatchKit Extension/Pods-LoveTappd WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB2606951A2D732FF0F0482E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveTappd/Pods-LoveTappd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9D2E6A810DB1CCCDEA58E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveTappd/Pods-LoveTappd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DB77A911F4250AA0011E8A5 /* Sources */ = {
@@ -458,6 +637,7 @@
 		};
 		4DB77AC91F4250AB0011E8A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC61D96FD69AEA3523EA46C /* Pods-LoveTappd WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = ZK2P8S7A36;
@@ -475,6 +655,7 @@
 		};
 		4DB77ACA1F4250AB0011E8A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BBABDFA78248393D6DE2CC /* Pods-LoveTappd WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = ZK2P8S7A36;
@@ -492,6 +673,7 @@
 		};
 		4DB77ACD1F4250AB0011E8A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A422416695D4FF86A05F9306 /* Pods-LoveTappd WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -510,6 +692,7 @@
 		};
 		4DB77ACE1F4250AB0011E8A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC884FB8B31C2691E684711 /* Pods-LoveTappd WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -528,6 +711,7 @@
 		};
 		4DB77AD11F4250AB0011E8A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144054379CA68A6847B8E566 /* Pods-LoveTappd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZK2P8S7A36;
@@ -541,6 +725,7 @@
 		};
 		4DB77AD21F4250AB0011E8A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2FB281B1E3EC096645F4A9 /* Pods-LoveTappd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZK2P8S7A36;
