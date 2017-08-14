@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DB77A991F4250AB0011E8A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77A981F4250AB0011E8A5 /* AppDelegate.swift */; };
+		4DB77A9B1F4250AB0011E8A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77A9A1F4250AB0011E8A5 /* ViewController.swift */; };
+		4DB77A9E1F4250AB0011E8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77A9C1F4250AB0011E8A5 /* Main.storyboard */; };
+		4DB77AA01F4250AB0011E8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77A9F1F4250AB0011E8A5 /* Assets.xcassets */; };
+		4DB77AA31F4250AB0011E8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77AA11F4250AB0011E8A5 /* LaunchScreen.storyboard */; };
+		4DB77AA81F4250AB0011E8A5 /* LoveTappd WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4DB77AA71F4250AB0011E8A5 /* LoveTappd WatchKit App.app */; };
+		4DB77AAE1F4250AB0011E8A5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77AAC1F4250AB0011E8A5 /* Interface.storyboard */; };
+		4DB77AB01F4250AB0011E8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77AAF1F4250AB0011E8A5 /* Assets.xcassets */; };
+		4DB77AB71F4250AB0011E8A5 /* LoveTappd WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4DB77AB61F4250AB0011E8A5 /* LoveTappd WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DB77ABE1F4250AB0011E8A5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77ABD1F4250AB0011E8A5 /* InterfaceController.swift */; };
+		4DB77AC01F4250AB0011E8A5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77ABF1F4250AB0011E8A5 /* ExtensionDelegate.swift */; };
+		4DB77AC21F4250AB0011E8A5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77AC11F4250AB0011E8A5 /* NotificationController.swift */; };
+		4DB77AC41F4250AB0011E8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77AC31F4250AB0011E8A5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DB77AA91F4250AB0011E8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB77A8D1F4250AA0011E8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB77AA61F4250AB0011E8A5;
+			remoteInfo = "LoveTappd WatchKit App";
+		};
+		4DB77AB81F4250AB0011E8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB77A8D1F4250AA0011E8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB77AB51F4250AB0011E8A5;
+			remoteInfo = "LoveTappd WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DB77ACB1F4250AB0011E8A5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4DB77AB71F4250AB0011E8A5 /* LoveTappd WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB77ACF1F4250AB0011E8A5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4DB77AA81F4250AB0011E8A5 /* LoveTappd WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DB77A951F4250AA0011E8A5 /* LoveTappd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveTappd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB77A981F4250AB0011E8A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DB77A9A1F4250AB0011E8A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DB77A9D1F4250AB0011E8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DB77A9F1F4250AB0011E8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB77AA21F4250AB0011E8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DB77AA41F4250AB0011E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB77AA71F4250AB0011E8A5 /* LoveTappd WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoveTappd WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB77AAD1F4250AB0011E8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4DB77AAF1F4250AB0011E8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB77AB11F4250AB0011E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB77AB61F4250AB0011E8A5 /* LoveTappd WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LoveTappd WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB77ABC1F4250AB0011E8A5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4DB77ABD1F4250AB0011E8A5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4DB77ABF1F4250AB0011E8A5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4DB77AC11F4250AB0011E8A5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4DB77AC31F4250AB0011E8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB77AC51F4250AB0011E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB77A921F4250AA0011E8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB77AB31F4250AB0011E8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB77A8C1F4250AA0011E8A5 = {
+			isa = PBXGroup;
+			children = (
+				4DB77A971F4250AA0011E8A5 /* LoveTappd */,
+				4DB77AAB1F4250AB0011E8A5 /* LoveTappd WatchKit App */,
+				4DB77ABA1F4250AB0011E8A5 /* LoveTappd WatchKit Extension */,
+				4DB77A961F4250AA0011E8A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB77A961F4250AA0011E8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB77A951F4250AA0011E8A5 /* LoveTappd.app */,
+				4DB77AA71F4250AB0011E8A5 /* LoveTappd WatchKit App.app */,
+				4DB77AB61F4250AB0011E8A5 /* LoveTappd WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB77A971F4250AA0011E8A5 /* LoveTappd */ = {
+			isa = PBXGroup;
+			children = (
+				4DB77A981F4250AB0011E8A5 /* AppDelegate.swift */,
+				4DB77A9A1F4250AB0011E8A5 /* ViewController.swift */,
+				4DB77A9C1F4250AB0011E8A5 /* Main.storyboard */,
+				4DB77A9F1F4250AB0011E8A5 /* Assets.xcassets */,
+				4DB77AA11F4250AB0011E8A5 /* LaunchScreen.storyboard */,
+				4DB77AA41F4250AB0011E8A5 /* Info.plist */,
+			);
+			path = LoveTappd;
+			sourceTree = "<group>";
+		};
+		4DB77AAB1F4250AB0011E8A5 /* LoveTappd WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4DB77AAC1F4250AB0011E8A5 /* Interface.storyboard */,
+				4DB77AAF1F4250AB0011E8A5 /* Assets.xcassets */,
+				4DB77AB11F4250AB0011E8A5 /* Info.plist */,
+			);
+			path = "LoveTappd WatchKit App";
+			sourceTree = "<group>";
+		};
+		4DB77ABA1F4250AB0011E8A5 /* LoveTappd WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4DB77ABD1F4250AB0011E8A5 /* InterfaceController.swift */,
+				4DB77ABF1F4250AB0011E8A5 /* ExtensionDelegate.swift */,
+				4DB77AC11F4250AB0011E8A5 /* NotificationController.swift */,
+				4DB77AC31F4250AB0011E8A5 /* Assets.xcassets */,
+				4DB77AC51F4250AB0011E8A5 /* Info.plist */,
+				4DB77ABB1F4250AB0011E8A5 /* Supporting Files */,
+			);
+			path = "LoveTappd WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4DB77ABB1F4250AB0011E8A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB77ABC1F4250AB0011E8A5 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB77A941F4250AA0011E8A5 /* LoveTappd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB77AD01F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd" */;
+			buildPhases = (
+				4DB77A911F4250AA0011E8A5 /* Sources */,
+				4DB77A921F4250AA0011E8A5 /* Frameworks */,
+				4DB77A931F4250AA0011E8A5 /* Resources */,
+				4DB77ACF1F4250AB0011E8A5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DB77AAA1F4250AB0011E8A5 /* PBXTargetDependency */,
+			);
+			name = LoveTappd;
+			productName = LoveTappd;
+			productReference = 4DB77A951F4250AA0011E8A5 /* LoveTappd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DB77AA61F4250AB0011E8A5 /* LoveTappd WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB77ACC1F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd WatchKit App" */;
+			buildPhases = (
+				4DB77AA51F4250AB0011E8A5 /* Resources */,
+				4DB77ACB1F4250AB0011E8A5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DB77AB91F4250AB0011E8A5 /* PBXTargetDependency */,
+			);
+			name = "LoveTappd WatchKit App";
+			productName = "LoveTappd WatchKit App";
+			productReference = 4DB77AA71F4250AB0011E8A5 /* LoveTappd WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4DB77AB51F4250AB0011E8A5 /* LoveTappd WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB77AC81F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd WatchKit Extension" */;
+			buildPhases = (
+				4DB77AB21F4250AB0011E8A5 /* Sources */,
+				4DB77AB31F4250AB0011E8A5 /* Frameworks */,
+				4DB77AB41F4250AB0011E8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoveTappd WatchKit Extension";
+			productName = "LoveTappd WatchKit Extension";
+			productReference = 4DB77AB61F4250AB0011E8A5 /* LoveTappd WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB77A8D1F4250AA0011E8A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ElliScharlin;
+				TargetAttributes = {
+					4DB77A941F4250AA0011E8A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZK2P8S7A36;
+						ProvisioningStyle = Automatic;
+					};
+					4DB77AA61F4250AB0011E8A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZK2P8S7A36;
+						ProvisioningStyle = Automatic;
+					};
+					4DB77AB51F4250AB0011E8A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZK2P8S7A36;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DB77A901F4250AA0011E8A5 /* Build configuration list for PBXProject "LoveTappd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DB77A8C1F4250AA0011E8A5;
+			productRefGroup = 4DB77A961F4250AA0011E8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB77A941F4250AA0011E8A5 /* LoveTappd */,
+				4DB77AA61F4250AB0011E8A5 /* LoveTappd WatchKit App */,
+				4DB77AB51F4250AB0011E8A5 /* LoveTappd WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB77A931F4250AA0011E8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB77AA31F4250AB0011E8A5 /* LaunchScreen.storyboard in Resources */,
+				4DB77AA01F4250AB0011E8A5 /* Assets.xcassets in Resources */,
+				4DB77A9E1F4250AB0011E8A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB77AA51F4250AB0011E8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB77AB01F4250AB0011E8A5 /* Assets.xcassets in Resources */,
+				4DB77AAE1F4250AB0011E8A5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB77AB41F4250AB0011E8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB77AC41F4250AB0011E8A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB77A911F4250AA0011E8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB77A9B1F4250AB0011E8A5 /* ViewController.swift in Sources */,
+				4DB77A991F4250AB0011E8A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB77AB21F4250AB0011E8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB77AC21F4250AB0011E8A5 /* NotificationController.swift in Sources */,
+				4DB77AC01F4250AB0011E8A5 /* ExtensionDelegate.swift in Sources */,
+				4DB77ABE1F4250AB0011E8A5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DB77AAA1F4250AB0011E8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB77AA61F4250AB0011E8A5 /* LoveTappd WatchKit App */;
+			targetProxy = 4DB77AA91F4250AB0011E8A5 /* PBXContainerItemProxy */;
+		};
+		4DB77AB91F4250AB0011E8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB77AB51F4250AB0011E8A5 /* LoveTappd WatchKit Extension */;
+			targetProxy = 4DB77AB81F4250AB0011E8A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DB77A9C1F4250AB0011E8A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB77A9D1F4250AB0011E8A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DB77AA11F4250AB0011E8A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB77AA21F4250AB0011E8A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DB77AAC1F4250AB0011E8A5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB77AAD1F4250AB0011E8A5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB77AC61F4250AB0011E8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DB77AC71F4250AB0011E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB77AC91F4250AB0011E8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = ZK2P8S7A36;
+				INFOPLIST_FILE = "LoveTappd WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElliScharlin.LoveTappd.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		4DB77ACA1F4250AB0011E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = ZK2P8S7A36;
+				INFOPLIST_FILE = "LoveTappd WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElliScharlin.LoveTappd.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		4DB77ACD1F4250AB0011E8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZK2P8S7A36;
+				IBSC_MODULE = LoveTappd_WatchKit_Extension;
+				INFOPLIST_FILE = "LoveTappd WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ElliScharlin.LoveTappd.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		4DB77ACE1F4250AB0011E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZK2P8S7A36;
+				IBSC_MODULE = LoveTappd_WatchKit_Extension;
+				INFOPLIST_FILE = "LoveTappd WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ElliScharlin.LoveTappd.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		4DB77AD11F4250AB0011E8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZK2P8S7A36;
+				INFOPLIST_FILE = LoveTappd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElliScharlin.LoveTappd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4DB77AD21F4250AB0011E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZK2P8S7A36;
+				INFOPLIST_FILE = LoveTappd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElliScharlin.LoveTappd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB77A901F4250AA0011E8A5 /* Build configuration list for PBXProject "LoveTappd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB77AC61F4250AB0011E8A5 /* Debug */,
+				4DB77AC71F4250AB0011E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB77AC81F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB77AC91F4250AB0011E8A5 /* Debug */,
+				4DB77ACA1F4250AB0011E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DB77ACC1F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB77ACD1F4250AB0011E8A5 /* Debug */,
+				4DB77ACE1F4250AB0011E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DB77AD01F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB77AD11F4250AB0011E8A5 /* Debug */,
+				4DB77AD21F4250AB0011E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB77A8D1F4250AA0011E8A5 /* Project object */;
+}
