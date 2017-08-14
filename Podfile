@@ -23,4 +23,7 @@ target 'LoveTappd WatchKit Extension' do
 
   # Pods for LoveTappd WatchKit Extension
 
+'Firebase/Core'
+
+
 end
