@@ -20,6 +20,7 @@
 		4DB77AC01F4250AB0011E8A5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77ABF1F4250AB0011E8A5 /* ExtensionDelegate.swift */; };
 		4DB77AC21F4250AB0011E8A5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB77AC11F4250AB0011E8A5 /* NotificationController.swift */; };
 		4DB77AC41F4250AB0011E8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77AC31F4250AB0011E8A5 /* Assets.xcassets */; };
+		4DB77AD41F4252920011E8A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB77AD31F4252920011E8A5 /* GoogleService-Info.plist */; };
 		81FB1885CC32A5938DAF8967 /* Pods_LoveTappd_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA2AE94BB2DC9AE8775462A /* Pods_LoveTappd_WatchKit_App.framework */; };
 		A56ADD90BADBFC415FD92B5A /* Pods_LoveTappd_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C03414914DF835CB042FC5 /* Pods_LoveTappd_WatchKit_Extension.framework */; };
 		ABCCCEECDA1E4A51B7289E21 /* Pods_LoveTappd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0243DB4ED0004B69CE881F41 /* Pods_LoveTappd.framework */; };
@@ -89,6 +90,7 @@
 		4DB77AC11F4250AB0011E8A5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		4DB77AC31F4250AB0011E8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB77AC51F4250AB0011E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB77AD31F4252920011E8A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../iDTech/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A422416695D4FF86A05F9306 /* Pods-LoveTappd WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTappd WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		BAC884FB8B31C2691E684711 /* Pods-LoveTappd WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTappd WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		C3C03414914DF835CB042FC5 /* Pods_LoveTappd_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveTappd_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,10 +154,9 @@
 			children = (
 				4DB77A981F4250AB0011E8A5 /* AppDelegate.swift */,
 				4DB77A9A1F4250AB0011E8A5 /* ViewController.swift */,
-				4DB77A9C1F4250AB0011E8A5 /* Main.storyboard */,
 				4DB77A9F1F4250AB0011E8A5 /* Assets.xcassets */,
-				4DB77AA11F4250AB0011E8A5 /* LaunchScreen.storyboard */,
-				4DB77AA41F4250AB0011E8A5 /* Info.plist */,
+				4DB77AD61F4252AC0011E8A5 /* StoryBoards */,
+				4DB77AD51F42529A0011E8A5 /* pLists */,
 			);
 			path = LoveTappd;
 			sourceTree = "<group>";
@@ -189,6 +190,24 @@
 				4DB77ABC1F4250AB0011E8A5 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DB77AD51F42529A0011E8A5 /* pLists */ = {
+			isa = PBXGroup;
+			children = (
+				4DB77AD31F4252920011E8A5 /* GoogleService-Info.plist */,
+				4DB77AA41F4250AB0011E8A5 /* Info.plist */,
+			);
+			name = pLists;
+			sourceTree = "<group>";
+		};
+		4DB77AD61F4252AC0011E8A5 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				4DB77A9C1F4250AB0011E8A5 /* Main.storyboard */,
+				4DB77AA11F4250AB0011E8A5 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
 			sourceTree = "<group>";
 		};
 		688E7F95D896BDB804C9D47F /* Frameworks */ = {
@@ -332,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB77AA31F4250AB0011E8A5 /* LaunchScreen.storyboard in Resources */,
+				4DB77AD41F4252920011E8A5 /* GoogleService-Info.plist in Resources */,
 				4DB77AA01F4250AB0011E8A5 /* Assets.xcassets in Resources */,
 				4DB77A9E1F4250AB0011E8A5 /* Main.storyboard in Resources */,
 			);
@@ -384,7 +404,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		55CA9723138AFA56B8AFD02D /* [CP] Copy Pods Resources */ = {
@@ -414,7 +434,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6FFD6F7558D33590B3BA98A9 /* [CP] Check Pods Manifest.lock */ = {
@@ -429,7 +449,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7C07AFC86FC51ED7BCB9A6EE /* [CP] Embed Pods Frameworks */ = {
@@ -756,6 +776,7 @@
 				4DB77ACA1F4250AB0011E8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DB77ACC1F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +785,7 @@
 				4DB77ACE1F4250AB0011E8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DB77AD01F4250AB0011E8A5 /* Build configuration list for PBXNativeTarget "LoveTappd" */ = {
 			isa = XCConfigurationList;
@@ -772,6 +794,7 @@
 				4DB77AD21F4250AB0011E8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
