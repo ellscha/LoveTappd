@@ -8,33 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		18865661E7B5E1641B5EB87093300050 /* Pods-LoveTappd WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6E9737AA28BFF9CAB36EB9FB8E46D3 /* Pods-LoveTappd WatchKit App-dummy.m */; };
-		7D0E1C2DAE5F0589DA0CE342EC39076A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7752798AED75D2190758A21548AB728 /* Foundation.framework */; };
+		26776086C0E895D13E2DC4912AAAC32B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E6947E5816AC7D9325581A6772D91E8 /* Pods-LoveTappd WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A227E2AB4A3D353E62A0E596D0D332 /* Pods-LoveTappd WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF4A326324EB39F7193853109392D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A031364ED79BB1C7F3F088438CC87F2C /* Pods-LoveTappd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB5C6CC68926CE9F244247E41D7677F /* Pods-LoveTappd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C42CD95974DBB21833989B0BDADEFC /* Pods-LoveTappd WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94166F7D74B662E6C958645BF3017C00 /* Pods-LoveTappd WatchKit Extension-dummy.m */; };
 		CBC9CE8BED13227103B2A6BE349EE3B9 /* Pods-LoveTappd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF98018A6A1A2C4078CEFBA652A54E5 /* Pods-LoveTappd-dummy.m */; };
-		D3E708FC2BFA09D27ABB6C42C1C548EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7752798AED75D2190758A21548AB728 /* Foundation.framework */; };
-		E64401B1B3473A850B31A92346B1BD04 /* Pods-LoveTappd WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94166F7D74B662E6C958645BF3017C00 /* Pods-LoveTappd WatchKit Extension-dummy.m */; };
-		ED9B204D8349EDDF41469D622D4F12F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AE61DEB7F70B8D5B09290911F0E1C8 /* Foundation.framework */; };
-		F578E16715C47767D64C8B9865EA40A3 /* Pods-LoveTappd WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B309262DB2749E170D5B081999C65E8 /* Pods-LoveTappd WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF476A9990E11E208AB70AF7D5063995 /* Pods-LoveTappd WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B309262DB2749E170D5B081999C65E8 /* Pods-LoveTappd WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED9B204D8349EDDF41469D622D4F12F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B337D814C18B291C33614A7FF248D277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
 		07465C2CD50ECA1EFE996FED1548BD30 /* Pods-LoveTappd WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTappd WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		0C9A2C5D8BBB015F2EEC21122C448F68 /* Pods-LoveTappd WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTappd WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		0F7A636AD6BEE96C359653105297C1DC /* Pods-LoveTappd WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveTappd WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		25A132F1869837E9A760EEB488B5D44B /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		2849118E66F8FB23260AFEB06402A6D0 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		29903764A62E7D37451F321754C2CE34 /* Pods_LoveTappd_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveTappd_WatchKit_App.framework; path = "Pods-LoveTappd WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B309262DB2749E170D5B081999C65E8 /* Pods-LoveTappd WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoveTappd WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
 		2DF1D1920CB839932E9FF9D67A0D32D0 /* Pods-LoveTappd-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoveTappd-acknowledgements.plist"; sourceTree = "<group>"; };
+		39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		3C11B24327DCA859F51CF1668C211D68 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
 		4610AE6BE31E592D5BA69C45AB5DFC46 /* Pods-LoveTappd-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveTappd-resources.sh"; sourceTree = "<group>"; };
+		4D48B278ED3B1FAE2133F48FAC325F12 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		57AA9EDA49BF2A7765143F862D9DA095 /* Pods-LoveTappd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTappd.release.xcconfig"; sourceTree = "<group>"; };
 		58C5F1A4F4885F3A30FE1C2D9E889681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59903CD3EE60C7D98B115756872D3C48 /* Pods-LoveTappd-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveTappd-frameworks.sh"; sourceTree = "<group>"; };
+		5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		605A37F165A6538C7FA8EA28BFEE6573 /* Pods-LoveTappd WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LoveTappd WatchKit App.modulemap"; sourceTree = "<group>"; };
 		691EB3CA8379350F8D850879A8662EF1 /* Pods-LoveTappd WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveTappd WatchKit App-resources.sh"; sourceTree = "<group>"; };
+		69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		6B966BA9CE08F6FF2375221E5F2109B7 /* Pods-LoveTappd WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveTappd WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
-		6E57C8E3D4CB1F5646FF73E3C14D834A /* Pods_LoveTappd_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveTappd_WatchKit_App.framework; path = "Pods-LoveTappd WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB5C6CC68926CE9F244247E41D7677F /* Pods-LoveTappd-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoveTappd-umbrella.h"; sourceTree = "<group>"; };
 		7221361C4B543E93D78C867229CED8E8 /* Pods-LoveTappd WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LoveTappd WatchKit Extension.modulemap"; sourceTree = "<group>"; };
-		72A447D6037169C179B6DC6A9227B723 /* Pods_LoveTappd_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveTappd_WatchKit_Extension.framework; path = "Pods-LoveTappd WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		789C65EF6EF89504B3A61417D880F649 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94166F7D74B662E6C958645BF3017C00 /* Pods-LoveTappd WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoveTappd WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
 		98E397DC93A319B24E9EE7074235CD7D /* Pods-LoveTappd-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoveTappd-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -42,35 +67,42 @@
 		9E8FE5275993CACBC1044DB57467012F /* Pods-LoveTappd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTappd.debug.xcconfig"; sourceTree = "<group>"; };
 		A27043CF15D8690991CC6DE6F5DBD574 /* Pods-LoveTappd WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoveTappd WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
 		ABF7A69EB14D4738F0CF0B98A72F852F /* Pods-LoveTappd WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTappd WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		AC5FCC352AC1AD39E8E75E0810026404 /* Pods_LoveTappd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveTappd.framework; path = "Pods-LoveTappd.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE4CE697E47D220A84104F6542F48B1 /* Pods-LoveTappd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LoveTappd.modulemap"; sourceTree = "<group>"; };
-		B7752798AED75D2190758A21548AB728 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B0B8B7C85A230B4EE6C80FFF3713E80A /* Pods_LoveTappd_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveTappd_WatchKit_Extension.framework; path = "Pods-LoveTappd WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEF9555ABDC5D6ACB9DCB58763B04B4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		BCB8840FFC9B3D565241F816F48A417F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C513DE6CEE1AAD23EFE32FEA6B6B6B9C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C88CEAD9913B6F15ACC765259A53796E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		CAF98018A6A1A2C4078CEFBA652A54E5 /* Pods-LoveTappd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoveTappd-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7A757F6AAE1DA46680D7802B30857A4 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		D91606C437B9AE803833B8F44A5383CD /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		DD6E9737AA28BFF9CAB36EB9FB8E46D3 /* Pods-LoveTappd WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoveTappd WatchKit App-dummy.m"; sourceTree = "<group>"; };
 		E0672AD4BF47D3C14241DC1A996311F6 /* Pods-LoveTappd WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTappd WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		E3A227E2AB4A3D353E62A0E596D0D332 /* Pods-LoveTappd WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoveTappd WatchKit App-umbrella.h"; sourceTree = "<group>"; };
 		E59CA3CA427AC605562F9D59FA1003C6 /* Pods-LoveTappd WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoveTappd WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE96EAF19E1347B0A3FDD39D40564C5F /* Pods-LoveTappd WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveTappd WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		F0C8DE2F3AD532F9EA7A03E5D14F3E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		F57655075280CB57AFBAA388B1226021 /* Pods-LoveTappd WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoveTappd WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F9AE61DEB7F70B8D5B09290911F0E1C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F9B428132496F3B00530C26B11C31666 /* Pods_LoveTappd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveTappd.framework; path = "Pods-LoveTappd.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1A20D43E3DB5D52EE3BCF380BF6CAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		070D5F99A705D2F65CB12C8631809353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF4A326324EB39F7193853109392D2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D0CD3E715C5932B5A3D584A17AAF91A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E708FC2BFA09D27ABB6C42C1C548EB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5043F336393EFB96E4455177D4889587 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D0E1C2DAE5F0589DA0CE342EC39076A /* Foundation.framework in Frameworks */,
+				26776086C0E895D13E2DC4912AAAC32B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +111,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED9B204D8349EDDF41469D622D4F12F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +133,44 @@
 				FBBDB339731200702EBF523A5E1D2980 /* Pods-LoveTappd WatchKit Extension */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12EAE32E2839BFBC415F7566CF95AFBB /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				3C11B24327DCA859F51CF1668C211D68 /* FIRInstanceID.h */,
+				181A71086EB9D9CA4B5AD46F1E275CDD /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		1743E5CF5AA439C0C869F9DD2B8FA6C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789C65EF6EF89504B3A61417D880F649 /* GoogleToolboxForMac.framework */,
+				AC5FCC352AC1AD39E8E75E0810026404 /* Pods_LoveTappd.framework */,
+				29903764A62E7D37451F321754C2CE34 /* Pods_LoveTappd_WatchKit_App.framework */,
+				B0B8B7C85A230B4EE6C80FFF3713E80A /* Pods_LoveTappd_WatchKit_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181A71086EB9D9CA4B5AD46F1E275CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B278ED3B1FAE2133F48FAC325F12 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23FA9A582C978A551CD5E06C088ED3CF /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				93616DDBC4CE13C5363E8B47C61FAB3C /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
 		263FCAE316FDFBA5B6CE529BD65178A8 /* Pods-LoveTappd WatchKit App */ = {
@@ -113,6 +191,25 @@
 			path = "Target Support Files/Pods-LoveTappd WatchKit App";
 			sourceTree = "<group>";
 		};
+		3442BDD8A045E6455DD06D9760C724A4 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		3B7E4499FCB4021B32AC811764CDB508 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				3442BDD8A045E6455DD06D9760C724A4 /* Defines */,
+				61CF4BAAE013DF8B0007735CDAD7C659 /* NSData+zlib */,
+				4CFEB72FCD954675E0BF88DE27251392 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
 		49F3133A9BC0926C6AA57627AE638FB7 /* Pods-LoveTappd */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,49 +228,144 @@
 			path = "Target Support Files/Pods-LoveTappd";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		4CFEB72FCD954675E0BF88DE27251392 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
-				BBD1FCEAFFB4661B422B4E4AF2FA3FA8 /* Products */,
-				0AA29D0645979C2FF5200F65D98DF0CA /* Targets Support Files */,
+				25A132F1869837E9A760EEB488B5D44B /* GoogleToolboxForMac.modulemap */,
+				00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */,
+				410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */,
+				D7A757F6AAE1DA46680D7802B30857A4 /* GoogleToolboxForMac-prefix.pch */,
+				39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */,
+				F0C8DE2F3AD532F9EA7A03E5D14F3E7D /* Info.plist */,
 			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
 			sourceTree = "<group>";
 		};
-		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+		5852E0E12FD142FD5B46C5CD973C8C15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE50AB4B3645EA9432322BA2E72BE2F9 /* iOS */,
-				9880A75209637E3915A438772C6A676D /* watchOS */,
+				BBEF9555ABDC5D6ACB9DCB58763B04B4 /* GoogleInterchangeUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9880A75209637E3915A438772C6A676D /* watchOS */ = {
+		61CF4BAAE013DF8B0007735CDAD7C659 /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
-				B7752798AED75D2190758A21548AB728 /* Foundation.framework */,
+				69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */,
+				F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */,
 			);
-			name = watchOS;
+			name = "NSData+zlib";
 			sourceTree = "<group>";
 		};
-		BBD1FCEAFFB4661B422B4E4AF2FA3FA8 /* Products */ = {
+		6960BD0665A65D2B77A4EB34288B2D9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F9B428132496F3B00530C26B11C31666 /* Pods_LoveTappd.framework */,
-				6E57C8E3D4CB1F5646FF73E3C14D834A /* Pods_LoveTappd_WatchKit_App.framework */,
-				72A447D6037169C179B6DC6A9227B723 /* Pods_LoveTappd_WatchKit_Extension.framework */,
+				C88CEAD9913B6F15ACC765259A53796E /* GoogleSymbolUtilities.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE50AB4B3645EA9432322BA2E72BE2F9 /* iOS */ = {
+		728F1DF19867C27C9AFBFBAB877C5075 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				F9AE61DEB7F70B8D5B09290911F0E1C8 /* Foundation.framework */,
+				BAC0B0732C703D4483E9E41179261975 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		77294A3095DD86741E1692D62E33E1BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				728F1DF19867C27C9AFBFBAB877C5075 /* Firebase */,
+				E3A34E1D8982976A7CD926B0E2364D16 /* FirebaseAnalytics */,
+				23FA9A582C978A551CD5E06C088ED3CF /* FirebaseCore */,
+				12EAE32E2839BFBC415F7566CF95AFBB /* FirebaseInstanceID */,
+				CE09658FF71C2EDAEA4A95E0579F933C /* GoogleInterchangeUtilities */,
+				C3D8CF558B907F378D137FEBD6CC55C1 /* GoogleSymbolUtilities */,
+				3B7E4499FCB4021B32AC811764CDB508 /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				77294A3095DD86741E1692D62E33E1BE /* Pods */,
+				1743E5CF5AA439C0C869F9DD2B8FA6C8 /* Products */,
+				0AA29D0645979C2FF5200F65D98DF0CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93616DDBC4CE13C5363E8B47C61FAB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91606C437B9AE803833B8F44A5383CD /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAC0B0732C703D4483E9E41179261975 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2849118E66F8FB23260AFEB06402A6D0 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D8CF558B907F378D137FEBD6CC55C1 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6960BD0665A65D2B77A4EB34288B2D9F /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		CE09658FF71C2EDAEA4A95E0579F933C /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5852E0E12FD142FD5B46C5CD973C8C15 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		E3A34E1D8982976A7CD926B0E2364D16 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				F9B96C77E21B1A9EE878033087FA1BE7 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		F9B96C77E21B1A9EE878033087FA1BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C513DE6CEE1AAD23EFE32FEA6B6B6B9C /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FBBDB339731200702EBF523A5E1D2980 /* Pods-LoveTappd WatchKit Extension */ = {
@@ -197,14 +389,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		93B8DCA94351CEA79B3EB3DFEC17D6E9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F578E16715C47767D64C8B9865EA40A3 /* Pods-LoveTappd WatchKit Extension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AEF8474C9BAAB9D1F59A3AB43A3F702E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,24 +405,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C47B8751340BF66A4B3ECEA604A5F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF476A9990E11E208AB70AF7D5063995 /* Pods-LoveTappd WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		12E041B74D90A68FD4E7BAB25861BD2F /* Pods-LoveTappd WatchKit Extension */ = {
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4220247377DB07E90CE1A30B41787D80 /* Build configuration list for PBXNativeTarget "Pods-LoveTappd WatchKit Extension" */;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
 			buildPhases = (
-				392ECEFE7BD3224CE8B71FCE77191AE9 /* Sources */,
-				5043F336393EFB96E4455177D4889587 /* Frameworks */,
-				93B8DCA94351CEA79B3EB3DFEC17D6E9 /* Headers */,
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 789C65EF6EF89504B3A61417D880F649 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77AFFAEFAD934607D1D5EA4074B30BD0 /* Pods-LoveTappd WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9614134CD794D9B1C76F08848195F0D6 /* Build configuration list for PBXNativeTarget "Pods-LoveTappd WatchKit Extension" */;
+			buildPhases = (
+				D516456809B939ED1F61455703F311F8 /* Sources */,
+				070D5F99A705D2F65CB12C8631809353 /* Frameworks */,
+				D8C47B8751340BF66A4B3ECEA604A5F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EBD8082DC973B737ECD35670B51CE6B /* PBXTargetDependency */,
+			);
 			name = "Pods-LoveTappd WatchKit Extension";
 			productName = "Pods-LoveTappd WatchKit Extension";
-			productReference = 72A447D6037169C179B6DC6A9227B723 /* Pods_LoveTappd_WatchKit_Extension.framework */;
+			productReference = B0B8B7C85A230B4EE6C80FFF3713E80A /* Pods_LoveTappd_WatchKit_Extension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A94C8B5D388C7C2ED3B00C959B1AA1D /* Pods-LoveTappd WatchKit App */ = {
@@ -255,7 +475,7 @@
 			);
 			name = "Pods-LoveTappd WatchKit App";
 			productName = "Pods-LoveTappd WatchKit App";
-			productReference = 6E57C8E3D4CB1F5646FF73E3C14D834A /* Pods_LoveTappd_WatchKit_App.framework */;
+			productReference = 29903764A62E7D37451F321754C2CE34 /* Pods_LoveTappd_WatchKit_App.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E31411FC73F89CAE4A238E63E291A964 /* Pods-LoveTappd */ = {
@@ -272,7 +492,7 @@
 			);
 			name = "Pods-LoveTappd";
 			productName = "Pods-LoveTappd";
-			productReference = F9B428132496F3B00530C26B11C31666 /* Pods_LoveTappd.framework */;
+			productReference = AC5FCC352AC1AD39E8E75E0810026404 /* Pods_LoveTappd.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -292,31 +512,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BBD1FCEAFFB4661B422B4E4AF2FA3FA8 /* Products */;
+			productRefGroup = 1743E5CF5AA439C0C869F9DD2B8FA6C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
 				E31411FC73F89CAE4A238E63E291A964 /* Pods-LoveTappd */,
 				9A94C8B5D388C7C2ED3B00C959B1AA1D /* Pods-LoveTappd WatchKit App */,
-				12E041B74D90A68FD4E7BAB25861BD2F /* Pods-LoveTappd WatchKit Extension */,
+				77AFFAEFAD934607D1D5EA4074B30BD0 /* Pods-LoveTappd WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		392ECEFE7BD3224CE8B71FCE77191AE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E64401B1B3473A850B31A92346B1BD04 /* Pods-LoveTappd WatchKit Extension-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5374C9CA5B4F2B14796A8D18D98B3412 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CBC9CE8BED13227103B2A6BE349EE3B9 /* Pods-LoveTappd-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,46 +550,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D516456809B939ED1F61455703F311F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C42CD95974DBB21833989B0BDADEFC /* Pods-LoveTappd WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		28000A458D22EE4E136F77905C3B1238 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABF7A69EB14D4738F0CF0B98A72F852F /* Pods-LoveTappd WatchKit Extension.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd WatchKit Extension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd WatchKit Extension/Pods-LoveTappd WatchKit Extension.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LoveTappd_WatchKit_Extension;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
-			};
-			name = Release;
+/* Begin PBXTargetDependency section */
+		0EBD8082DC973B737ECD35670B51CE6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = B337D814C18B291C33614A7FF248D277 /* PBXContainerItemProxy */;
 		};
-		2B35184CA1A1AFF1EB4AD69AE6F2E981 /* Debug */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -403,16 +606,84 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
 			name = Debug;
 		};
-		3B092F66DCFB9AA618299FB3161467C7 /* Debug */ = {
+		16532B06411D4DCD1907D7BC160AB4F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F93882516A5D02CEF5040DD9BF80553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF7A69EB14D4738F0CF0B98A72F852F /* Pods-LoveTappd WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd WatchKit Extension/Pods-LoveTappd WatchKit Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoveTappd_WatchKit_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BE164FB45EB3CFFD445FB361F7C6A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E8FE5275993CACBC1044DB57467012F /* Pods-LoveTappd.debug.xcconfig */;
 			buildSettings = {
@@ -429,7 +700,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd/Pods-LoveTappd.modulemap";
@@ -447,42 +718,7 @@
 			};
 			name = Debug;
 		};
-		8661CD687BC7D773433F3B923D374C78 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57AA9EDA49BF2A7765143F862D9DA095 /* Pods-LoveTappd.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd/Pods-LoveTappd.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LoveTappd;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AF7A470B3D6DFCB9D09C2DF6FCF25ACB /* Debug */ = {
+		2F745F565AD9BA22DD39C28D20F65D08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07465C2CD50ECA1EFE996FED1548BD30 /* Pods-LoveTappd WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
@@ -500,6 +736,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd WatchKit Extension/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd WatchKit Extension/Pods-LoveTappd WatchKit Extension.modulemap";
@@ -509,16 +746,120 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_LoveTappd_WatchKit_Extension;
-				SDKROOT = watchos;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
 			name = Debug;
 		};
-		D7142B4157F0CC5A20070A84971B280C /* Release */ = {
+		5C9B24BE9D45310D9407C744C6D007BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9A2C5D8BBB015F2EEC21122C448F68 /* Pods-LoveTappd WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoveTappd_WatchKit_App;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79C043D5F6D07EA22B3D7797DD3CA8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0672AD4BF47D3C14241DC1A996311F6 /* Pods-LoveTappd WatchKit App.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoveTappd_WatchKit_App;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5330FA700155AE60E137B810B225C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AA9EDA49BF2A7765143F862D9DA095 /* Pods-LoveTappd.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd/Pods-LoveTappd.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoveTappd;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -550,18 +891,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
 			name = Release;
 		};
-		DF34B92D4111E51EF336157263467AAE /* Debug */ = {
+		F543BD92505458609B66136D40721AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C9A2C5D8BBB015F2EEC21122C448F68 /* Pods-LoveTappd WatchKit App.debug.xcconfig */;
+			baseConfigurationReference = 00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -575,61 +915,22 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd WatchKit App/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LoveTappd_WatchKit_App;
-				SDKROOT = watchos;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
 			name = Debug;
-		};
-		EDF42A024E9F879E23A9268482315A10 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0672AD4BF47D3C14241DC1A996311F6 /* Pods-LoveTappd WatchKit App.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LoveTappd WatchKit App/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoveTappd WatchKit App/Pods-LoveTappd WatchKit App.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LoveTappd_WatchKit_App;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -637,17 +938,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B35184CA1A1AFF1EB4AD69AE6F2E981 /* Debug */,
-				D7142B4157F0CC5A20070A84971B280C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4220247377DB07E90CE1A30B41787D80 /* Build configuration list for PBXNativeTarget "Pods-LoveTappd WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF7A470B3D6DFCB9D09C2DF6FCF25ACB /* Debug */,
-				28000A458D22EE4E136F77905C3B1238 /* Release */,
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -655,8 +947,26 @@
 		7F523208B5B70183B2CCE35BB55626C7 /* Build configuration list for PBXNativeTarget "Pods-LoveTappd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B092F66DCFB9AA618299FB3161467C7 /* Debug */,
-				8661CD687BC7D773433F3B923D374C78 /* Release */,
+				2BE164FB45EB3CFFD445FB361F7C6A5E /* Debug */,
+				A5330FA700155AE60E137B810B225C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9614134CD794D9B1C76F08848195F0D6 /* Build configuration list for PBXNativeTarget "Pods-LoveTappd WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F745F565AD9BA22DD39C28D20F65D08 /* Debug */,
+				1F93882516A5D02CEF5040DD9BF80553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F543BD92505458609B66136D40721AFB /* Debug */,
+				16532B06411D4DCD1907D7BC160AB4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -664,8 +974,8 @@
 		D909A054E2B5E49A9C8432D0C8FBFDF6 /* Build configuration list for PBXNativeTarget "Pods-LoveTappd WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF34B92D4111E51EF336157263467AAE /* Debug */,
-				EDF42A024E9F879E23A9268482315A10 /* Release */,
+				5C9B24BE9D45310D9407C744C6D007BA /* Debug */,
+				79C043D5F6D07EA22B3D7797DD3CA8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

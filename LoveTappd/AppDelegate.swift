@@ -5,18 +5,31 @@
 //  Created by Elli Scharlin on 8/14/17.
 //  Copyright © 2017 ElliScharlin. All rights reserved.
 //
-
 import UIKit
+import Firebase
+/*
+ PhoneAuthProvider.provider().verifyPhoneNumber(phoneNumber) { (verificationID, error) in
+ if let error = error {
+ self.showMessagePrompt(error.localizedDescription)
+ return
+ }
+ // Sign in using the verificationID and the code sent to the user
+ // ...
+ }
+ 
+ UserDefaults.standard.set(verificationID, forKey: "authVerificationID")
 
+ */
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+    
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?)
+        -> Bool {
+            FirebaseApp.configure()
+            return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -41,6 +54,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        // Pass device token to auth
+        Auth.auth().setAPNSToken(deviceToken, type: AuthAPNSTokenTypeProd)
+        
+        // Further handling of the device token if needed by the app
+        // ...
+    }
+    
+    func application(_ application: UIApplication,
+                     didReceiveRemoteNotification notification: [AnyHashable : Any],
+                     fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        if Auth.auth().canHandleNotification(notification) {
+            completionHandler(UIBackgroundFetchResultNoData)
+            return
+        }
+        // This notification is not auth related, developer should handle it.
+    }
+    
+    
 
 }
 
